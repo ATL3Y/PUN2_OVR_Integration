@@ -34,17 +34,13 @@ ExportedObj/
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
+# Icon?
 ehthumbs.db
 Thumbs.db
 
 # ============   #
 # Custom defined #
 # ============   #
-
-*.mp4
-*.mov
-*.psd
 
 *.sublime-workspace
 *.sublime-project
