@@ -47,6 +47,8 @@ namespace Com.ATL3Y.Test
         {
             get
             {
+                // Utilized this if you start getting dropped messages errors. 
+                return false;
                 return ( !PhotonNetwork.InRoom || ( PhotonNetwork.CurrentRoom.PlayerCount < 2 ) ||
                         !Oculus.Platform.Core.IsInitialized ( ) || !ovrAvatar.Initialized );
             }
